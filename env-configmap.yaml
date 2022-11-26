@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: arn:aws:s3:::monotomicrobucket123
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  JWT_SECRET: testing
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: faww-mono-micro-project-db.ccmoggfy6bjr.us-east-1.rds.amazonaws.com
+  POSTGRES_USERNAME: postgres
+  POSTGRES_PASSWORD: postgres
+  URL: https://451D20D6726B6244E2BA9F0C1FC27EBD.yl4.us-east-1.eks.amazonaws.com
+metadata:
+  name: env-config
